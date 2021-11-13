@@ -1,0 +1,29 @@
+package defaultPackage;
+
+public class RelationalLogicalExercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double d1 = 2.2 + 4.4;
+		double d2 = 6.6;
+		System.out.println(d1);
+		System.out.println(d2);
+		System.out.println(d1 == d2); //false, because d1 = 6.6000000000000005
+		
+		int d3 = 2 + 4;
+		int d4 = 6;
+		System.out.println(d3 == d4); //true
+		
+		String s1 = "Azman";
+		String s2 = "Az	man";
+		System.out.println(s1==s2); //true
+	}
+
+}
+
+Output:
+6.6000000000000005
+6.6
+false
+true
+false
