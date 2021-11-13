@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class Count2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double y = 15.25;
+		double x = 15.25;
+		if (x == y);
+		System.out.println("x equal to y");
+	}
+
+}
+
+
+Output:
+x equal to y
