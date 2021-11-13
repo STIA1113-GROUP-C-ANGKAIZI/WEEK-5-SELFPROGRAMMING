@@ -1,0 +1,18 @@
+package defaultPackage;
+
+public class RelationalLogicalExercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int day = 15;
+		int month = 10;
+		int year = 1582;
+		
+		System.out.println((year < 1583) && (month < 11) && (day < 16));
+		// Given the year, month (1-12), and day (1-31), write a boolean expression which returns true for dates before October 15, 1582
+	}
+
+}
+
+Output:
+true
